@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "runs": [
+    {
+      "run": "full_delta_seed2021",
+      "correct": 189,
+      "test_samples": 196,
+      "accuracy_recomputed": 0.9642857142857143,
+      "macro_f1_recomputed": 0.9652332045421655,
+      "checkpoint_max_probability_difference": 0.0,
+      "passed": true
+    },
+    {
+      "run": "no_delta_original_seed2021",
+      "correct": 186,
+      "test_samples": 196,
+      "accuracy_recomputed": 0.9489795918367347,
+      "macro_f1_recomputed": 0.9509486447285582,
+      "checkpoint_max_probability_difference": 0.0,
+      "passed": true
+    },
+    {
+      "run": "no_delta_matched_seed2021",
+      "correct": 187,
+      "test_samples": 196,
+      "accuracy_recomputed": 0.9540816326530612,
+      "macro_f1_recomputed": 0.9561898711220131,
+      "checkpoint_max_probability_difference": 0.0,
+      "passed": true
+    },
+    {
+      "run": "full_delta_seed2022",
+      "correct": 187,
+      "test_samples": 196,
+      "accuracy_recomputed": 0.9540816326530612,
+      "macro_f1_recomputed": 0.9563947183996294,
+      "checkpoint_max_probability_difference": 0.0,
+      "passed": true
+    },
+    {
+      "run": "no_delta_original_seed2022",
+      "correct": 186,
+      "test_samples": 196,
+      "accuracy_recomputed": 0.9489795918367347,
+      "macro_f1_recomputed": 0.9509486447285582,
+      "checkpoint_max_probability_difference": 0.0,
+      "passed": true
+    },
+    {
+      "run": "no_delta_matched_seed2022",
+      "correct": 185,
+      "test_samples": 196,
+      "accuracy_recomputed": 0.9438775510204082,
+      "macro_f1_recomputed": 0.9454275312181882,
+      "checkpoint_max_probability_difference": 0.0,
+      "passed": true
+    },
+    {
+      "run": "full_delta_seed2023",
+      "correct": 187,
+      "test_samples": 196,
+      "accuracy_recomputed": 0.9540816326530612,
+      "macro_f1_recomputed": 0.9561898711220131,
+      "checkpoint_max_probability_difference": 0.0,
+      "passed": true
+    },
+    {
+      "run": "no_delta_original_seed2023",
+      "correct": 188,
+      "test_samples": 196,
+      "accuracy_recomputed": 0.9591836734693877,
+      "macro_f1_recomputed": 0.9618772433783004,
+      "checkpoint_max_probability_difference": 0.0,
+      "passed": true
+    },
+    {
+      "run": "no_delta_matched_seed2023",
+      "correct": 186,
+      "test_samples": 196,
+      "accuracy_recomputed": 0.9489795918367347,
+      "macro_f1_recomputed": 0.9515712975807528,
+      "checkpoint_max_probability_difference": 0.0,
+      "passed": true
+    }
+  ],
+  "source_data_unchanged": true,
+  "source_ablation_unchanged": true,
+  "summary_recomputed": true,
+  "checkpoint_predictions_reproduced": true
+}

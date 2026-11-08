@@ -1,0 +1,16 @@
+{
+  "protocol_id": "a64e5bbbd8bd084c00643356d6773832a3ac0a592a6084109efcd8fc3ec8b4c9",
+  "model": "glt",
+  "seed": 2022,
+  "parameters": {
+    "total": 5712139,
+    "trainable": 5712139,
+    "non_trainable": 0
+  },
+  "epochs_ran": 35,
+  "best_epoch": 15,
+  "test_samples": 196,
+  "seconds": 148.2350296974182,
+  "accuracy": 0.9183673469387755,
+  "macro_f1": 0.9224691371478447
+}

@@ -1,0 +1,22 @@
+{
+  "protocol_id": "2d0b12511832b4f817455afc5eb68372e7cc0cb2a2f82a76c7a94a0e7e26db45",
+  "variant": "full_delta",
+  "seed": 2021,
+  "input_dim": 212,
+  "head_units": 128,
+  "parameters": {
+    "total": 275403,
+    "trainable": 274251,
+    "non_trainable": 1152
+  },
+  "epochs_ran": 66,
+  "best_epoch": 46,
+  "minimum_validation_loss": 0.022408833727240562,
+  "test_samples": 196,
+  "seconds": 50.469013690948486,
+  "accuracy": 0.9642857142857143,
+  "macro_precision": 0.9682454800101858,
+  "macro_recall": 0.9667654808959156,
+  "macro_f1": 0.9652332045421655,
+  "weighted_f1": 0.9644812947733966
+}

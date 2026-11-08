@@ -1,0 +1,122 @@
+[
+  {
+    "metric": "accuracy",
+    "model_a": "full_delta",
+    "model_b": "no_delta_original",
+    "differences": [
+      0.015306122448979553,
+      0.005102040816326481,
+      -0.005102040816326481
+    ],
+    "difference_stats": {
+      "n": 3,
+      "mean": 0.005102040816326518,
+      "sample_std": 0.010204081632653017,
+      "ci95_low": -0.020246303182079012,
+      "ci95_high": 0.03045038481473205
+    },
+    "nonzero_pairs": 3,
+    "p_exact_sign": 1.0,
+    "p_holm": 1.0
+  },
+  {
+    "metric": "accuracy",
+    "model_a": "full_delta",
+    "model_b": "no_delta_matched",
+    "differences": [
+      0.010204081632653073,
+      0.010204081632653073,
+      0.005102040816326481
+    ],
+    "difference_stats": {
+      "n": 3,
+      "mean": 0.008503401360544208,
+      "sample_std": 0.0029456646387226158,
+      "ci95_low": 0.0011859647450487548,
+      "ci95_high": 0.015820837976039663
+    },
+    "nonzero_pairs": 3,
+    "p_exact_sign": 0.25,
+    "p_holm": 0.75
+  },
+  {
+    "metric": "accuracy",
+    "model_a": "no_delta_original",
+    "model_b": "no_delta_matched",
+    "differences": [
+      -0.005102040816326481,
+      0.005102040816326592,
+      0.010204081632652962
+    ],
+    "difference_stats": {
+      "n": 3,
+      "mean": 0.003401360544217691,
+      "sample_std": 0.0077934960798568065,
+      "ci95_low": -0.015958756974861054,
+      "ci95_high": 0.022761478063296436
+    },
+    "nonzero_pairs": 3,
+    "p_exact_sign": 1.0,
+    "p_holm": 1.0
+  },
+  {
+    "metric": "macro_f1",
+    "model_a": "full_delta",
+    "model_b": "no_delta_original",
+    "differences": [
+      0.014284559813607323,
+      0.005446073671071194,
+      -0.0056873722562872375
+    ],
+    "difference_stats": {
+      "n": 3,
+      "mean": 0.004681087076130426,
+      "sample_std": 0.010007917916277592,
+      "ci95_low": -0.020179959236731493,
+      "ci95_high": 0.029542133388992343
+    },
+    "nonzero_pairs": 3,
+    "p_exact_sign": 1.0,
+    "p_holm": 1.0
+  },
+  {
+    "metric": "macro_f1",
+    "model_a": "full_delta",
+    "model_b": "no_delta_matched",
+    "differences": [
+      0.0090433334201524,
+      0.010967187181441185,
+      0.0046185735412603846
+    ],
+    "difference_stats": {
+      "n": 3,
+      "mean": 0.008209698047617989,
+      "sample_std": 0.0032553701385292376,
+      "ci95_low": 0.00012291032048748762,
+      "ci95_high": 0.01629648577474849
+    },
+    "nonzero_pairs": 3,
+    "p_exact_sign": 0.25,
+    "p_holm": 0.75
+  },
+  {
+    "metric": "macro_f1",
+    "model_a": "no_delta_original",
+    "model_b": "no_delta_matched",
+    "differences": [
+      -0.005241226393454923,
+      0.00552111351036999,
+      0.010305945797547622
+    ],
+    "difference_stats": {
+      "n": 3,
+      "mean": 0.0035286109714875633,
+      "sample_std": 0.007962800421947068,
+      "ci95_low": -0.016252081848556497,
+      "ci95_high": 0.02330930379153162
+    },
+    "nonzero_pairs": 3,
+    "p_exact_sign": 1.0,
+    "p_holm": 1.0
+  }
+]

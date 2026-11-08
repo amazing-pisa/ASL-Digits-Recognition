@@ -1,0 +1,46 @@
+{
+  "description": "Recorded configuration of the supplied repeated dynamic runs; training implementations are in scripts/experiments.",
+  "split_seed": 42,
+  "run_seeds": [
+    2021,
+    2022,
+    2023
+  ],
+  "split_counts": {
+    "train": 682,
+    "validation": 98,
+    "test": 196
+  },
+  "split_unit": "complete saved sequence",
+  "stratified": true,
+  "sequence_frames": 30,
+  "input_dimensions": 212,
+  "batch_size": 32,
+  "max_epochs": 200,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "reduce_lr": {
+    "monitor": "val_loss",
+    "factor": 0.5,
+    "patience": 6
+  },
+  "early_stopping": {
+    "monitor": "val_loss",
+    "patience": 20,
+    "restore_best_weights": true
+  },
+  "checkpoint_selection": "minimum validation loss",
+  "augmentation": {
+    "train_only": true,
+    "noise_mean": 0,
+    "noise_std": 0.005,
+    "noise_dimensions": "all input dimensions including visibility and Delta visibility",
+    "scale_range": [
+      0.9,
+      1.1
+    ],
+    "scale_dimensions": "first 84",
+    "application": "once before fitting; seeded per run"
+  },
+  "reporting": "mean and sample standard deviation over three seeds"
+}

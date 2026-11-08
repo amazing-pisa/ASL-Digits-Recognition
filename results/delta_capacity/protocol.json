@@ -1,0 +1,113 @@
+{
+  "protocol_id": "2d0b12511832b4f817455afc5eb68372e7cc0cb2a2f82a76c7a94a0e7e26db45",
+  "source_data": "${LOCAL_SOURCE}",
+  "data_manifest": [
+    {
+      "file": "seq_10_1775144442.npy",
+      "sequences": 76,
+      "sha256": "6fdef486fd21f276393cf91944084c7144fc7efc88edba595129ef89ee3f6156"
+    },
+    {
+      "file": "seq_11_1775144442.npy",
+      "sequences": 82,
+      "sha256": "b86a4ea5c4308953e1af8637b062006d9b4cfae1c6a6102beaac1ed35ebe1e85"
+    },
+    {
+      "file": "seq_12_1775144442.npy",
+      "sequences": 85,
+      "sha256": "78f357a83d29e0c45e23e26d02e0c0cae2809fc0b17574f1b123ddbc043e2473"
+    },
+    {
+      "file": "seq_13_1775144442.npy",
+      "sequences": 83,
+      "sha256": "8ec5a3c17f56942765e3146eef355cd257d5d08fbb56d73081d180d4d646390e"
+    },
+    {
+      "file": "seq_14_1775144442.npy",
+      "sequences": 116,
+      "sha256": "0eaa9032df02ba777e81e54704b3f4d024929ebc7328618d3f02738b74097dc0"
+    },
+    {
+      "file": "seq_15_1775144442.npy",
+      "sequences": 93,
+      "sha256": "5c86848eb9456cf24b84fe527013282f97dc801f9f55cf58d3ee03826a4644e2"
+    },
+    {
+      "file": "seq_16_1775144442.npy",
+      "sequences": 88,
+      "sha256": "cdef9460aa4c86a7d1620a7c5eb4e9960271d217147e0941ec33decb0ebaabcb"
+    },
+    {
+      "file": "seq_17_1775144442.npy",
+      "sequences": 88,
+      "sha256": "eeac2eeb2501ab5e2f568b7461fe0f7aa5c8974a4767207ded40caedd5cab8e7"
+    },
+    {
+      "file": "seq_18_1775144442.npy",
+      "sequences": 81,
+      "sha256": "f7e90777e0ddb08f0a4abb9601d0b6050cf48ceb7b37bad1c8f04d1eef324379"
+    },
+    {
+      "file": "seq_19_1775144442.npy",
+      "sequences": 106,
+      "sha256": "dc4d3343cf05ac7f04d054ef599350dfc724e0269547b8dbac66709c63ad900d"
+    },
+    {
+      "file": "seq_20_1775144442.npy",
+      "sequences": 78,
+      "sha256": "214a91b3970b7807980ef9b554a191ead1a88a2778e7f34a60890a8a9201f924"
+    }
+  ],
+  "script_sha256": "66af318cf395e7ed398370d88398a7ed7746bbf413448c50dfa310236640ebe2",
+  "original_ablation_sha256": "00030679f6c244c091e62616f5962fd389bf0ad7a50ac4a8f2eeb32a908da057",
+  "split_seed": 42,
+  "split_counts": [
+    682,
+    98,
+    196
+  ],
+  "run_seeds": [
+    2021,
+    2022,
+    2023
+  ],
+  "variants": {
+    "full_delta": [
+      212,
+      128
+    ],
+    "no_delta_original": [
+      106,
+      128
+    ],
+    "no_delta_matched": [
+      106,
+      377
+    ]
+  },
+  "max_epochs": 200,
+  "batch_size": 32,
+  "adam_lr": 0.001,
+  "lr_factor": 0.5,
+  "lr_patience": 6,
+  "early_stopping_patience": 20,
+  "selection": "minimum_validation_loss",
+  "augmentation_noise_sd": 0.005,
+  "augmentation_scale": [
+    0.9,
+    1.1
+  ],
+  "standard_deviation_ddof": 1,
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "tensorflow": "2.16.2",
+    "keras": "3.4.1",
+    "numpy": "1.26.4",
+    "sklearn": "1.5.2",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+    "physical_devices": [
+      "PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')"
+    ]
+  }
+}

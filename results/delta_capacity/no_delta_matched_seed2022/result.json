@@ -1,0 +1,22 @@
+{
+  "protocol_id": "2d0b12511832b4f817455afc5eb68372e7cc0cb2a2f82a76c7a94a0e7e26db45",
+  "variant": "no_delta_matched",
+  "seed": 2022,
+  "input_dim": 106,
+  "head_units": 377,
+  "parameters": {
+    "total": 275291,
+    "trainable": 273641,
+    "non_trainable": 1650
+  },
+  "epochs_ran": 52,
+  "best_epoch": 32,
+  "minimum_validation_loss": 0.014598028734326363,
+  "test_samples": 196,
+  "seconds": 35.86283826828003,
+  "accuracy": 0.9438775510204082,
+  "macro_precision": 0.9463071113612909,
+  "macro_recall": 0.948430874326015,
+  "macro_f1": 0.9454275312181882,
+  "weighted_f1": 0.9440916846471691
+}

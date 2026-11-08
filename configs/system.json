@@ -1,0 +1,9 @@
+{
+  "camera_index": 0,
+  "motion_threshold": 0.0005,
+  "motion_window": 10,
+  "sequence_window": 30,
+  "static_confidence": 0.8,
+  "dynamic_confidence": 0.9,
+  "prediction_history": 3
+}
